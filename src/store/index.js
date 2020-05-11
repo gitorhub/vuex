@@ -17,10 +17,10 @@ export default new Vuex.Store({
       return  state.products.map(product =>{
         return{
           name:"**"+product.name+"**",
-          price:product.price/2
+          price:product.price/4
         }
       })
-      
+
     }
   },
   mutations:{
